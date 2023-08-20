@@ -1,257 +1,371 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <met#aeb3b8et="utf-8">
+        <title>Peter Arinze</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
 
-  <title>Petinrinz</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Favicons -->
- <!-- <link href="assets/img/favicon.png" rel="icon"> -->
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+        <!-- Libraries Stylesheet -->
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
- <link href="assets/css/style.css" rel="stylesheet">
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
 
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
 
-
- <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
-<link rel="manifest" href="fav/site.webmanifest">
-<link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
- 
-
-</head>
-
-<body>
-
-  <!-- ======= Mobile nav toggle button ======= -->
-  <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
-
-  <!-- ======= Header ======= -->
-  <header id="header">
-    <div class="d-flex flex-column">
-
-      <div class="profile">
-        <img src="assets/img/profile-img.jpg" alt="" class="img-fluid rounded-circle">
-        <h1 class="text-light"><a href="index.html">Peter Arinze</a></h1>
-        <div class="social-links mt-3 text-center">
-          <a href="https://twitter.com/petinrinz" target = "_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href=""  class="facebook"><i class="bx bxl-facebook"></i></a>
-          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-          <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
         </div>
-      </div>
+        <!-- Spinner End -->
 
-      <nav class="nav-menu">
-        <ul>
-          <li class="active"><a href="index.html"><i class="bx bx-home"></i> <span>Home</span></a></li>
-          <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
-          <li><a href="#skills"><i class="bx bx-user"></i> <span>Skills</span></a></li>
-          <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
-        </ul>
-      </nav><!-- .nav-menu -->
-      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-4 sticky-lg-top vh-100">
+                    <div class="d-flex flex-column h-100 text-center overflow-auto shadow">
+                      <img class="w-100 img-fluid mb-4" src="img/profile.jpg" alt="Image">
+                        <h1 class="text-primary mt-2">Peter Arinze</h1>
+                        <div class="mb-4" style="height: 22px;">
+                            <h4 class="typed-text-output d-inline-block text-light"></h4>
+                            <div class="typed-text d-none">Full stack Web Developer, Software Developer</div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-auto mb-3">
+                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-secondary btn-square mx-1" href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                        <div class="d-flex align-items-end justify-content-between border-top">
+                            <a href="https://wa.link/abqnea" class="btn w-50 border-end">Whatsapp</a>
+                            <a href="tel:+2348061519474" class="btn w-50 btn-scroll">Call</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <!-- About Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">About Me</h1>
+                        <p>I'm a dedicated and enthusiastic software developer with a deep love for coding and an insatiable curiosity 
+                            for exploring new technologies. My journey began with a fascination for turning lines of code into tangible, 
+                            functional applications that can transform the way people interact with technology. Over the years, I've honed 
+                            my skills in various programming languages and development paradigms, ensuring that I'm equipped to tackle a wide range of challenges.</p>
+                        <div class="row mb-4">
+                            <div class="col-sm-6 py-1">
+                                <h5 class="mb-1">Contact Details</h5>
+                                <span class="fw-medium text-primary">Name:</span> Peter Arinze <br />
+                                <span class="fw-medium text-primary">Phone:</span> +2348061519474 <br />
+                                <span class="fw-medium text-primary">Email:</span> petinrinz@gmail.com <br />
+                                <span class="fw-medium text-primary">Address:</span> Lagos
+                            </div>
+                            <div class="col-sm-6 py-1">
+                                <h5 class="mb-1">Education</h5>
+                                <span class="fw-medium text-primary">Degree:</span> Bachelor of Engineering [Computer]<br />
+                                <span class="fw-medium text-primary">School:</span> University of Benin [Uniben]<br />
+                                <span class="fw-medium text-primary">year:</span> 2014 - 2019<br />
+                                <span class="fw-medium text-primary">Freelance:</span> Available
+                            </div>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-4 col-lg-6 col-xl-4">
+                                <div class="d-flex bg-secondary p-4">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">5</h1>
+                                    <div class="ps-3">
+                                        <p class="mb-0">Years of</p>
+                                        <h5 class="mb-0">Experience</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-6 col-xl-4">
+                                <div class="d-flex bg-secondary p-4">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">40</h1>+
+                                    <div class="ps-3">
+                                        <p class="mb-0">Happy</p>
+                                        <h5 class="mb-0">Clients</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-lg-6 col-xl-4">
+                                <div class="d-flex bg-secondary p-4">
+                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">100</h1>+
+                                    <div class="ps-3">
+                                        <p class="mb-0">Complete</p>
+                                        <h5 class="mb-0">Projects</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- About End -->
+                    
+                    <!-- Skills Start -->
+                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Skills</h1>
+                        <div class="border-start border-2 border-light pt-2 ps-5">
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Programming Languages:</h5>
+                                <p>Proficient in Java, PHP, and JavaScript, allowing me to excel in both front-end and back-end development.</p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">API Integration:</h5>
+                                <p>RESTful APIs</p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Web Development:</h5>
+                                <p>Experience in creating responsive and dynamic web applications using HTML, CSS, and modern web frameworks like Bootstrap and Vuejx.</p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Database Management:</h5>
+                                <p>Skilled in designing and managing databases using SQL technology, ensuring data integrity and efficient retrieval.</p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Version Control:</h5>
+                                <p>Proficient in using Git and GitHub for collaborative development and version control.</p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Agile Methodology:</h5>
+                                <p>Comfortable working in Agile environments, collaborating with cross-functional teams to deliver high-quality software in iterative cycles.</p>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Problem-Solving:</h5>
+                                <p> Adept at breaking down complex problems into manageable tasks and finding creative solutions to ensure project success.</p>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Skills End -->
 
-    </div>
-  </header><!-- End Header -->
+                    <!-- Expericence Start -->
+                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Expericence</h1>
+                        <div class="border-start border-2 border-light pt-2 ps-5">
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Software Developer</h5>
+                                <p class="mb-2">NORAK TECHNOLOGIES LIMITED | <small>2023 - current</small></p>
+                                <ul>
+                                    <li>Developed <b>Work Report Management System</b> that was integrated into NORAKLE ERP SOFTWARE as a module. promoting 30% efficient communication, data accuracy, and streamlined workflows within organizations</li>
+                                    <li>Developed and maintained a client-facing e-commerce platform, leading to a 30% increase in user engagement within the first quarter after the launch.</li>
+                                    <li>Collaborated with UI/UX designers to implement responsive designs and ensure a seamless and intuitive user experience across various devices.</li>
+                                    <li>Integrated secure payment gateways, enhancing the platform's payment processing capabilities and ensuring the safety of user financial data.</li>
+                                    <li>Improved application performance by optimizing database queries and reducing response times by 50%, resulting in a more seamless user experience.</li>
+                                    <li>Implemented advanced search functionality, resulting in a 40% reduction in search query response times.</li>
+                                    <li>Utilized REST APIs to establish real-time communication between frontend and backend components, improving data synchronization and overall application responsiveness.</li>
+                                    <li>Mentored junior developers, providing guidance on best practices, code reviews, and troubleshooting techniques.</li>
+                                    <li>Worked closely with product managers to gather requirements, translate them into technical specifications, and deliver solutions that aligned with business objectives.</li>
+                                </ul>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Software Developer</h5>
+                                <p class="mb-2">Freelance Web Developer / Independent Contractor | 2018 - current</p>
+                                <ul>
+                                    <li>Designed and developed a business website for a business, resulting in 50% increase in online visibility and engagement with potential clients.</li>
+                                    <li>Collaborated with a startup to build a mobile-responsive landing page that effectively conveyed their product's value proposition, leading to a 20% increase in sign-up conversions.</li>
+                                    <li>Implemented e-commerce functionality for a large scale business, allowing them to expand their reach and 50% increase in online sales.</li>
+                                </ul>
+                            </div>
+                            <div class="position-relative mb-4">
+                                <span class="bi bi-arrow-right fs-4 text-light position-absolute" style="top: -5px; left: -50px;"></span>
+                                <h5 class="mb-1">Internship</h5>
+                                <p class="mb-2">Delta State Innovation Hub (DsiHub) | <small>April 2018 – September 2018</small></p>
+                                <ul>
+                                    <li>Tutored aspiring web developers on HTML, CSS, JAVASCRIPT, BOOTSTRAP, MYSQL and PHP.</li>
+                                    <li>I led our team in building a school management portal, as part of group projects.</li>
+                                    <li>I participated in numerous seminars on web development and digital marketing organized at the hub</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Expericence End -->
 
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="hero-container" data-aos="fade-in">
-      <h1>Peter Arinze</h1>
-      <p>I'm a <span class="typed" data-typed-items="Software Engineer, Web Developer, Freelancer, Digital Marketer"></span></p>
-    </div>
-  </section><!-- End Hero -->
 
-  <main id="main">
+                    <!-- Portfolio Start -->
+                    <section class="py-5 border-bottom wow fadeInUp" data-wow-delay="0.1s">
+                        <h1 class="title pb-3 mb-5">Portfolio</h1>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="row portfolio-container">
+                                    <div class="col-md-6 mb-4 portfolio-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/dashboard.png" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="https://smes.norakle.com" target="_blank">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="mb-2 text-center pt-2">Norakle ERP dashbord</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 portfolio-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/report.png" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="https://smes.norakle.com" target="_blank">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="mb-2 text-center pt-2">Work Report Management System</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 portfolio-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/luxurySpace.png" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="https://luxuryspacesbyriella.io" target="_blank">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="mb-2 text-center pt-2">Furniture E-Commerce Platform</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 portfolio-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/admin.png" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="https://luxuryspacesbyriella.io" target="_blank">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="mb-2 text-center pt-2">E-Commerce Admin Panel</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 portfolio-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/benzparts.png" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="https://benzpartsolution.com" target="_blank">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="mb-2 text-center pt-2">Car Parts E-Commerce Platform</h5>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 portfolio-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/lumenora.png" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="https://lumenorasolutions.com" target="_blank">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                            <h5 class="mb-2 text-center pt-2">Company Website</h5>
+                                        </div>
+                                    </div>
+                                    <!-- <div class="col-md-6 mb-4 portfolio-item first">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-4 portfolio-item second">
+                                        <div class="position-relative overflow-hidden mb-2">
+                                            <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">
+                                            <div class="portfolio-btn d-flex align-items-center justify-content-center">
+                                                <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                                    <i class="bi bi-plus text-light"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Portfolio End -->
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
 
-        <div class="section-title">
-          <h2>About</h2>
-          <p>I'm a full stack web developer since 2017.  I can easily help you grow your business by making a professional website or landing page for your business.
-		  I will provide top notch high quality web designs and build responsive websites with 100% satisfaction, Weather you want to build your website from scratch 
-		  or need update I can do that.</p>
+                    <!-- Contact Start -->
+                    <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact">
+                        <h1 class="title pb-3 mb-5">Contact Me</h1>
+						<form action="https://formspree.io/f/mbjvodye" method="POST">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0 bg-secondary" id="name" name="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control border-0 bg-secondary" id="email" name="email" placeholder="Your Email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control border-0 bg-secondary" id="subject" name="subject" placeholder="Subject">
+                                        <label for="subject">Subject</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating">
+                                        <textarea class="form-control border-0 bg-secondary" placeholder="Leave a message here" id="message" name="message" style="height: 200px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3" type="submit">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                    <!-- Contact End -->
+                </div>
+            </div>
         </div>
 
-        <div class="row">
-          <div class="col-lg-4" data-aos="fade-right">
-            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
-          </div>
-          <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-            <div class="row">
-              <div class="col-lg-6">
-                <ul>
-                  <li><i class="icofont-rounded-right"></i> <strong>Name:</strong> Peter Arinze</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Profile:</strong> full stack developer</li>
-                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong><a href="mailto:petinrinz@gmail.com"> petinrinz@gmail.com</a></li>
-				  <li><i class="icofont-rounded-right"></i> <strong>web:</strong><a href="https:petinrinz.github.io">  https:petinrinz.github.io </a></li>
-                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Lagos, Nigeria</li>
-                </ul>
-              </div>
-              </div>
-          </div>
-        </div>
+        
+        <!-- Back to Top -->
+        <a href="#" class="back-to-top"><i class="fa fa-angle-double-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/typed/typed.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-      </div>
-    </section><!-- End About Section -->
+        <!-- Contact Javascript File -->
+        <script src="mail/jqBootstrapValidation.min.js"></script>
+        <script src="mail/contact.js"></script>
 
-
-    <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills section-bg">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Skills</h2>
-          <p>My expertise are in:</p>
-        </div>
-
-        <div class="row skills-content">
-
-          <div class="col-lg-6" data-aos="fade-up">
-
-            <div class="progress">
-              <span class="skill">HTML5, CSS3, BOOTSTRAP 4 <i class="val">Expert</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">JAVASCRIPT <i class="val">Pro</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Java <i class="val">Intermediate</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-
-            <div class="progress">
-              <span class="skill">PHP, Mysql <i class="val">Pro</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-            <div class="progress">
-              <span class="skill">Laravel, VueJs, Tailwindcss <i class="val">Pro</i></span>
-              <div class="progress-bar-wrap">
-                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-              </div>
-            </div>
-
-
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Skills Section -->
-
-    <!-- ======= Resume Section ======= -->
-    <section id="resume" class="resume">
-      <div class="container">
-		<div class="row">
-          <div class="col-lg-6" data-aos="fade-up">
-             <h3 class="resume-title">Education</h3>
-            <div class="resume-item">
-              <h4>MSc Psychology and Computer Science</h4>
-              <h5>In View</h5>
-              <p><em>Stanford University</em></p>
-            </div>
-            <div class="resume-item">
-              <h4>BSc Computer Engineering</h4>
-              <h5>2015 - 2019</h5>
-              <p><em>University of Benin</em></p>
-            </div>
-          </div>
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <h3 class="resume-title">Work Experience</h3>
-            <div class="resume-item">
-              <h4>Software Engineer & Digital Marketer</h4>
-              <h5>April 2018 - Present</h5>
-              <p><em>Amalex Universal Enterprises Ltd </em></p>
-              <ul>
-                <li>Developed and deployed web application.</li>
-                <li>Developed numerous marketing programs (presentations, and advertisements).</li>
-                <li>Provided well grounded technical support.</li>
-              </ul>
-            </div>
-            <div class="resume-item">
-              <h4>Web Development</h4>
-              <h5>March 2018 - August 2018</h5>
-              <p><em>Delta State Innovation Hub(DsiHub)</em></p>
-              <ul>
-                <li>worked as a web tutor, training people on basic web languages such as Html, CSS, JavaScript, Bootstrap, MySQL & php</li>
-                <li>Participated actively at the numerous seminars on web development and digital marketing organized at the hub</li>
-             </ul>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Resume Section -->
-
-
-
-
-  </main><!-- End #main -->
-
-
-    <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <div class="credits">Designed by <a href="https:petinrinz.github.io">petinrinz</a>
-      </div>
-    </div>
-  </footer><!-- End  Footer -->
-
-  <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/jquery/jquery.min.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
-  <script src="assets/vendor/counterup/counterup.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/venobox/venobox.min.js"></script>
-  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
 </html>
